@@ -1,0 +1,40 @@
+/*
+Theme Name: twentythirteen-child
+Theme URI:
+Description: mon theme enfant
+Author: Poulet
+Author URI:
+Template: twentythirteen
+Version: 1.0.0
+*/
+
+@import url("../twentythirteen/style.css");
+
+/* =Theme customization starts here */
+
+@font-face { 	
+	font-family: "Signarita"; 	
+	src: url('Signarita Zhai Rhianne.ttf'); 
+}
+
+.site-title{
+	font-family: Signarita;
+}
+
+.nav-menu li a{
+	font-family: Signarita;
+	font-size: 25px;
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+
+#map{
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.meta{
+	padding: 5px;
+	border: 2px #5472AE solid;
+	border-radius: 15px;
+}
